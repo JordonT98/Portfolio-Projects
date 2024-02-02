@@ -18,3 +18,12 @@ This analysis is grounded in Airbnb listings data from 2016, with the data sourc
 Data Source: [Kaggle ](https://www.kaggle.com/datasets/alexanderfreberg/airbnb-listings-2016-dataset)
 
 Data Visualization: [Tableau](https://public.tableau.com/app/profile/jordon.taylor/viz/AirBnBFullProject_17062126734270/Dashboard1)
+
+
+## World Happiness Project
+
+This analysis draws from the World Happiness dataset spanning from 2015 to 2017, accessible via the link provided below. It examines the spectrum of happiness levels across dimensions such as economy, generosity, health, and family dynamics.
+
+Data Source: [Kaggle](https://www.kaggle.com/datasets/unsdsn/world-happiness)
+
+Data Visualization: [Tableau](https://public.tableau.com/app/profile/jordon.taylor/viz/WorldHappinessV2_17062854353530/Trends)
