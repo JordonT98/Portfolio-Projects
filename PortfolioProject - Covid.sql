@@ -1,13 +1,24 @@
+/*
+Exploring COVID-19 Data 
+
+Utilizing: Data Type Conversion, View Creation, Aggregate Functions, Window Functions, Temp Tables, CTEs, and Joins
+
+*/
+
+
 Select*
 From PortFolioProject..CovidDeaths
+where continent is not null
 Order by 3,4
 
 select*
 from PortFolioProject..CovidVaccinations
+where continent is not null
 order by 3,4
 
 Select Location, date, total_cases, new_cases, total_deaths, population
 From PortFolioProject..CovidDeaths
+where continent is not null
 Order by 1,2
 
 -- "Analyzing the Relationship Between Total Cases and Total Deaths"
@@ -16,6 +27,7 @@ Order by 1,2
 Select Location, date, total_cases, total_deaths,(Total_deaths/Total_cases)*100 as DeathPercentage
 From PortFolioProject..CovidDeaths
 Where location like '%Jamaica%'
+And continent is not null
 Order by 1,2
 
 -- "Examining Total Cases Relative to Population Size"
@@ -129,10 +141,6 @@ on deaths.location = vaccinations.location
 and deaths.date = vaccinations.date
 where deaths.continent is not null
 
-
-
-select*
-from PercentagePopulationVaccinated
 
 
 
