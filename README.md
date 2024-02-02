@@ -1,4 +1,4 @@
-# Covid-19 Tracker
+# Covid-19 Project
 
 This analysis is based on the COVID-19 dataset spanning from 2020 to 2021, which is linked below. From this dataset, I extracted information pertaining to COVID-19 cases and mortality rates.
 
