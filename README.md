@@ -32,6 +32,8 @@ Data Visualization: [Tableau](https://public.tableau.com/app/profile/jordon.tayl
 
 ## Python Projects
 
+[Movie Portfolio Project.ipynb](https://github.com/JordonT98/Portfolio-Projects/blob/main/Movie%20Portfolio%20Project.ipynb)
+
 [Automatic File Sorter](https://github.com/JordonT98/Portfolio-Projects/blob/main/Automatic%20File%20Sorter.ipynb)
 
 [BMI Calculator](https://github.com/JordonT98/Portfolio-Projects/blob/main/BMI%20Calculator.ipynb)
